@@ -7,6 +7,7 @@
   background-color: #fff;
   text-align: center;
   transition: 0.4s;
+  position: relative;
 }
 #root:hover {
   box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.1),
@@ -15,19 +16,34 @@
 .btn {
   border: none;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #64748b;
+  padding: 5px;
+  border-radius: 5px;
   margin: 20px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #504acc;
+  transition: 0.3s;
+}
+.nex-person-btn {
+  position: absolute;
+  right: -70px;
+  top: 47%;
+}
+.prev-person-btn {
+  position: absolute;
+  left: -70px;
+  top: 47%;
 }
 .icon-btn {
   display: block;
   width: 25px;
   height: 25px;
-  color: #282566;
+  color: #fff;
   transition: 0.3s;
 }
-.icon-btn:hover {
-  color: #504acc;
-}
+
 .surprise_me-btn {
   color: #645cff;
   background-color: #c1beff;
