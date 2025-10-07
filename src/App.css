@@ -1,5 +1,5 @@
 #root {
-  width: 600px;
+  width: 700px;
   height: 435px;
   border-radius: 5px;
   padding: 1.5rem 2rem;
@@ -8,6 +8,7 @@
   text-align: center;
   transition: 0.4s;
   position: relative;
+  overflow: hidden;
 }
 #root:hover {
   box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.1),
@@ -16,42 +17,44 @@
 .btn {
   border: none;
   cursor: pointer;
-  background-color: #64748b;
   padding: 5px;
   border-radius: 5px;
   margin: 20px;
+  background-color: #fff;
   transition: 0.3s;
 }
-.btn:hover {
-  background-color: #504acc;
-  transition: 0.3s;
-}
+
 .nex-person-btn {
   position: absolute;
-  right: -70px;
+  right: -20px;
   top: 47%;
 }
 .prev-person-btn {
   position: absolute;
-  left: -70px;
+  left: -20px;
   top: 47%;
 }
 .icon-btn {
   display: block;
   width: 25px;
   height: 25px;
-  color: #fff;
+
   transition: 0.3s;
 }
-
+.icon-btn:hover {
+  color: #504acc;
+}
 .surprise_me-btn {
   color: #645cff;
   background-color: #c1beff;
   border: none;
-  padding: 7px 14px;
+  padding: 9px 16px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.4s;
+  position: absolute;
+  bottom: 40px;
+  left: 43%;
 }
 .surprise_me-btn:hover {
   background-color: #645cff;

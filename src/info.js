@@ -1,6 +1,6 @@
 export const personsInfo = [
   {
-    id: 1,
+    id: 0,
     src: "person-1.jpeg",
     firstName: "Susan ",
     lastName: "Smith",
@@ -8,7 +8,7 @@ export const personsInfo = [
     text: "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
   },
   {
-    id: 2,
+    id: 1,
     src: "person-2.jpeg",
     firstName: "Anna ",
     lastName: "Johnson",
@@ -16,7 +16,7 @@ export const personsInfo = [
     text: "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.",
   },
   {
-    id: 3,
+    id: 2,
     src: "person-3.jpeg",
     firstName: "Bill ",
     lastName: "Anderson",
@@ -24,7 +24,7 @@ export const personsInfo = [
     text: "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic.",
   },
   {
-    id: 4,
+    id: 3,
     src: "person-4.jpeg",
     firstName: "Peter",
     lastName: "Jones",
