@@ -28,7 +28,18 @@ body {
   align-items: center;
   transition: all 0.5s ease;
 }
-
+.prev-slide {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.next-slide {
+  opacity: 0;
+  transform: translateX(100%);
+}
+.active-slide {
+  opacity: 1;
+  transform: translateX(0);
+}
 .img {
   margin-top: 10px;
   box-shadow: 7px -5px 0 1px #645cff;
