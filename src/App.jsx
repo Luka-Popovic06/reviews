@@ -11,6 +11,24 @@ function App() {
   const [previousSlide, setPreviousSlide] = useState(0);
   const [direction, setDirection] = useState("");
 
+  const random = () => {
+    let randomIndex = index;
+    while (randomIndex === index) {
+      randomIndex = Math.trunc(Math.random() * 4);
+    }
+    setIndex(randomIndex);
+  };
+  const nextPerson = () => {
+    setIsRight(false);
+    setIsLeft(true);
+    setIndex((prevIndex) => {
+      if (prevIndex === 3) {
+        return prevIndex - 3;
+      } else {
+        return prevIndex + 1;
+      }
+    });
+  };
   const prevPerson = () => {
     setIsLeft(false);
     setIsRight(true);
