@@ -11,6 +11,23 @@ function App() {
   const [previousSlide, setPreviousSlide] = useState(0);
   const [direction, setDirection] = useState("");
 
+  const prevPerson = () => {
+    setIsLeft(false);
+    setIsRight(true);
+    setIndex((prevIndex) => {
+      if (prevIndex === 0) {
+        return prevIndex + 3;
+      } else {
+        return prevIndex - 1;
+      }
+    });
+  };
+  const setCurrentSlide = (index) => {
+    setPreviousSlide(index);
+  };
+  const setSlideDirection = (directions) => {
+    setDirection(directions);
+  };
   return (
     <>
       {persons.map((person) => {
